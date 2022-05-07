@@ -15,10 +15,10 @@ module pcileech_pcie_a7(
     input                   rst,
 
     // PCIe fabric
-    output  [0:0]           pcie_tx_p,
-    output  [0:0]           pcie_tx_n,
-    input   [0:0]           pcie_rx_p,
-    input   [0:0]           pcie_rx_n,
+    output  [3:0]           pcie_tx_p,
+    output  [3:0]           pcie_tx_n,
+    input   [3:0]           pcie_rx_p,
+    input   [3:0]           pcie_rx_n,
     input                   pcie_clk_p,
     input                   pcie_clk_n,
     input                   pcie_perst_n,

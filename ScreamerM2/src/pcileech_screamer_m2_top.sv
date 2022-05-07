@@ -27,10 +27,10 @@ module pcileech_screamer_m2_top #(
     output          user_led_ld2,
     
     // PCI-E FABRIC
-    output  [0:0]   pcie_tx_p,
-    output  [0:0]   pcie_tx_n,
-    input   [0:0]   pcie_rx_p,
-    input   [0:0]   pcie_rx_n,
+    output  [3:0]   pcie_tx_p,
+    output  [3:0]   pcie_tx_n,
+    input   [3:0]   pcie_rx_p,
+    input   [3:0]   pcie_rx_n,
     input           pcie_clk_p,
     input           pcie_clk_n,
     input           pcie_present,
